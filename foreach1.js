@@ -5,6 +5,9 @@
  
 var foods = ["pizza", "tacos", "ice cream"];
 
+foods.forEach(function(element){
+    console.log("I like",element);
+});
 // your code here
 
 // The output should be

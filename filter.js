@@ -25,6 +25,10 @@ var isCool = function(person) {
 	return person.coolnessScore > 20;
 }
 
+people = people.filter(function(elem){
+    return isCool(elem)
+});
+console.log(people);
 // Example results:
 //
 // Bob is cool
